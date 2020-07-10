@@ -8,8 +8,8 @@
 class JoistikPin {
  public:
     JoistikPin(int EksenX, int EksenY);
-    double uzaklikCm();
-    double uzaklikCm(float temperature);
+    double XEkseni(int olcumX);
+    double YEkseni(int olcumY);
  private:
     int EksenX, EksenY;
 };
